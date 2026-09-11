@@ -1,0 +1,714 @@
+{
+  "2026-08-28": {
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28 23:01:12",
+    "themes_0659": [
+      {
+        "rank": 1,
+        "theme_name": "지역화폐",
+        "theme_id": "0659-01",
+        "description": "지역화폐 발행 확대, 지자체 결제 인프라 독점 운영 및 소상공인 정책 수혜",
+        "avg_rate": 6.85,
+        "total_trade_value": 4850.0,
+        "top3_stocks": [
+          {
+            "rank": 1,
+            "code": "052400",
+            "name": "코나아이",
+            "market": "KOSDAQ",
+            "price": 18500,
+            "rate": 8.45,
+            "trade_value_eok": 2150.0,
+            "reason": "지역화폐 플랫폼 1위 운영사 / 수급 집중"
+          },
+          {
+            "rank": 2,
+            "code": "094480",
+            "name": "갤럭시아머니트리",
+            "market": "KOSDAQ",
+            "price": 9450,
+            "rate": 6.8,
+            "trade_value_eok": 1620.0,
+            "reason": "머니트리 모바일 지역화폐 결제망"
+          },
+          {
+            "rank": 3,
+            "code": "053580",
+            "name": "웹케시",
+            "market": "KOSDAQ",
+            "price": 14200,
+            "rate": 5.3,
+            "trade_value_eok": 1080.0,
+            "reason": "지자체/공공기관 금융 핀테크 API 연동"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "theme_name": "정유 (석유/에너지)",
+        "theme_id": "0659-02",
+        "description": "중동 지정학적 리스크 고조에 따른 국제 유가(WTI) 급등 및 정제마진 회복 랠리",
+        "avg_rate": 5.4,
+        "total_trade_value": 7250.0,
+        "top3_stocks": [
+          {
+            "rank": 1,
+            "code": "010950",
+            "name": "S-Oil",
+            "market": "KOSPI",
+            "price": 78500,
+            "rate": 6.2,
+            "trade_value_eok": 3450.0,
+            "reason": "정유 퓨어 플레이어 / 정제마진 급등 수혜"
+          },
+          {
+            "rank": 2,
+            "code": "096770",
+            "name": "SK이노베이션",
+            "market": "KOSPI",
+            "price": 118000,
+            "rate": 5.1,
+            "trade_value_eok": 2680.0,
+            "reason": "SK E&S 합병 시너지 및 정유 사업 턴어라운드"
+          },
+          {
+            "rank": 3,
+            "code": "024060",
+            "name": "흥구석유",
+            "market": "KOSDAQ",
+            "price": 14600,
+            "rate": 4.9,
+            "trade_value_eok": 1120.0,
+            "reason": "유가 상승 시 단기 모멘텀 대장주"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "theme_name": "전자결재 (전자결제/핀테크)",
+        "theme_id": "0659-03",
+        "description": "온·오프라인 PG 결제 대금 사상 최대 경신 및 글로벌 간편결제 연동 확대",
+        "avg_rate": 4.65,
+        "total_trade_value": 5600.0,
+        "top3_stocks": [
+          {
+            "rank": 1,
+            "code": "064260",
+            "name": "다날",
+            "market": "KOSDAQ",
+            "price": 4850,
+            "rate": 5.8,
+            "trade_value_eok": 2480.0,
+            "reason": "휴대폰 결제 1위 / 온오프라인 통합 결제"
+          },
+          {
+            "rank": 2,
+            "code": "060250",
+            "name": "NHN KCP",
+            "market": "KOSDAQ",
+            "price": 11200,
+            "rate": 4.4,
+            "trade_value_eok": 1850.0,
+            "reason": "온라인 PG 거래액 1위 및 해외 가맹점 확대"
+          },
+          {
+            "rank": 3,
+            "code": "035600",
+            "name": "KG이니시스",
+            "market": "KOSDAQ",
+            "price": 12800,
+            "rate": 3.75,
+            "trade_value_eok": 1270.0,
+            "reason": "국내 최대 전자결제 PG 인프라"
+          }
+        ]
+      }
+    ],
+    "momentum_0198": [
+      {
+        "rank": 1,
+        "code": "052400",
+        "name": "코나아이",
+        "market": "KOSDAQ",
+        "price": 18500,
+        "rate": 8.45,
+        "trade_value_eok": 2150.0,
+        "search_surge_rate": "342%",
+        "reason": "지역화폐 1위 대장주 / 검색량 폭증"
+      },
+      {
+        "rank": 2,
+        "code": "010950",
+        "name": "S-Oil",
+        "market": "KOSPI",
+        "price": 78500,
+        "rate": 6.2,
+        "trade_value_eok": 3450.0,
+        "search_surge_rate": "285%",
+        "reason": "국제유가 급등에 따른 정유 대장주"
+      },
+      {
+        "rank": 3,
+        "code": "064260",
+        "name": "다날",
+        "market": "KOSDAQ",
+        "price": 4850,
+        "rate": 5.8,
+        "trade_value_eok": 2480.0,
+        "search_surge_rate": "270%",
+        "reason": "전자결재 거래량 폭발 / 신고가 랠리"
+      },
+      {
+        "rank": 4,
+        "code": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "price": 148000,
+        "rate": 5.4,
+        "trade_value_eok": 4200.0,
+        "search_surge_rate": "240%",
+        "reason": "HBM TC본더 수주 기대감"
+      },
+      {
+        "rank": 5,
+        "code": "094480",
+        "name": "갤럭시아머니트리",
+        "market": "KOSDAQ",
+        "price": 9450,
+        "rate": 6.8,
+        "trade_value_eok": 1620.0,
+        "search_surge_rate": "230%",
+        "reason": "지역화폐 및 STO 테마 수급"
+      },
+      {
+        "rank": 6,
+        "code": "087010",
+        "name": "펩트론",
+        "market": "KOSDAQ",
+        "price": 89000,
+        "rate": 5.1,
+        "trade_value_eok": 2650.0,
+        "search_surge_rate": "215%",
+        "reason": "비만치료제 L/O 기대감 지속"
+      },
+      {
+        "rank": 7,
+        "code": "096770",
+        "name": "SK이노베이션",
+        "market": "KOSPI",
+        "price": 118000,
+        "rate": 5.1,
+        "trade_value_eok": 2680.0,
+        "search_surge_rate": "205%",
+        "reason": "합병 후 가치 재평가"
+      },
+      {
+        "rank": 8,
+        "code": "024060",
+        "name": "흥구석유",
+        "market": "KOSDAQ",
+        "price": 14600,
+        "rate": 4.9,
+        "trade_value_eok": 1120.0,
+        "search_surge_rate": "198%",
+        "reason": "석유 유통 테마 급등"
+      },
+      {
+        "rank": 9,
+        "code": "060250",
+        "name": "NHN KCP",
+        "market": "KOSDAQ",
+        "price": 11200,
+        "rate": 4.4,
+        "trade_value_eok": 1850.0,
+        "search_surge_rate": "188%",
+        "reason": "전자결제 PG 실적 호조"
+      },
+      {
+        "rank": 10,
+        "code": "267260",
+        "name": "HD현대일렉트릭",
+        "market": "KOSPI",
+        "price": 345000,
+        "rate": 4.8,
+        "trade_value_eok": 3800.0,
+        "search_surge_rate": "182%",
+        "reason": "북미 변압기 초과 수요"
+      },
+      {
+        "rank": 11,
+        "code": "232140",
+        "name": "와이씨",
+        "market": "KOSDAQ",
+        "price": 17500,
+        "rate": 5.2,
+        "trade_value_eok": 2380.0,
+        "search_surge_rate": "175%",
+        "reason": "HBM 테스터 양산 공급"
+      },
+      {
+        "rank": 12,
+        "code": "257720",
+        "name": "실리콘투",
+        "market": "KOSDAQ",
+        "price": 46500,
+        "rate": 4.6,
+        "trade_value_eok": 3300.0,
+        "search_surge_rate": "169%",
+        "reason": "K-뷰티 글로벌 수출 성장"
+      },
+      {
+        "rank": 13,
+        "code": "000250",
+        "name": "삼천당제약",
+        "market": "KOSDAQ",
+        "price": 158000,
+        "rate": 4.5,
+        "trade_value_eok": 2750.0,
+        "search_surge_rate": "162%",
+        "reason": "바이오시밀러 독점 계약"
+      },
+      {
+        "rank": 14,
+        "code": "012450",
+        "name": "한화에어로스페이스",
+        "market": "KOSPI",
+        "price": 312000,
+        "rate": 4.1,
+        "trade_value_eok": 4100.0,
+        "search_surge_rate": "158%",
+        "reason": "K-방산 해외 수주 모멘텀"
+      },
+      {
+        "rank": 15,
+        "code": "053580",
+        "name": "웹케시",
+        "market": "KOSDAQ",
+        "price": 14200,
+        "rate": 5.3,
+        "trade_value_eok": 1080.0,
+        "search_surge_rate": "155%",
+        "reason": "B2B 핀테크 플랫폼 확장"
+      },
+      {
+        "rank": 16,
+        "code": "007660",
+        "name": "이수페타시스",
+        "market": "KOSPI",
+        "price": 48500,
+        "rate": 4.2,
+        "trade_value_eok": 2950.0,
+        "search_surge_rate": "148%",
+        "reason": "고다층 MLB 기판 수요"
+      },
+      {
+        "rank": 17,
+        "code": "035600",
+        "name": "KG이니시스",
+        "market": "KOSDAQ",
+        "price": 12800,
+        "rate": 3.75,
+        "trade_value_eok": 1270.0,
+        "search_surge_rate": "142%",
+        "reason": "전자상거래 PG 결제액 증가"
+      },
+      {
+        "rank": 18,
+        "code": "196170",
+        "name": "알테오젠",
+        "market": "KOSDAQ",
+        "price": 320000,
+        "rate": 3.9,
+        "trade_value_eok": 3900.0,
+        "search_surge_rate": "138%",
+        "reason": "키트루다 SC 로열티 가치"
+      },
+      {
+        "rank": 19,
+        "code": "003230",
+        "name": "삼양식품",
+        "market": "KOSPI",
+        "price": 640000,
+        "rate": 3.5,
+        "trade_value_eok": 2800.0,
+        "search_surge_rate": "132%",
+        "reason": "해외 라면 매출 신고가"
+      },
+      {
+        "rank": 20,
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "price": 265000,
+        "rate": 3.2,
+        "trade_value_eok": 8500.0,
+        "search_surge_rate": "125%",
+        "reason": "HBM3E 글로벌 독점 납품"
+      }
+    ],
+    "kospi_0184": [
+      {
+        "rank": 1,
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "KOSPI",
+        "price": 82500,
+        "rate": 1.85,
+        "trade_value_eok": 12500.0
+      },
+      {
+        "rank": 2,
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "price": 265000,
+        "rate": 3.2,
+        "trade_value_eok": 8500.0
+      },
+      {
+        "rank": 3,
+        "code": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "price": 148000,
+        "rate": 5.4,
+        "trade_value_eok": 4200.0
+      },
+      {
+        "rank": 4,
+        "code": "012450",
+        "name": "한화에어로스페이스",
+        "market": "KOSPI",
+        "price": 312000,
+        "rate": 4.1,
+        "trade_value_eok": 4100.0
+      },
+      {
+        "rank": 5,
+        "code": "267260",
+        "name": "HD현대일렉트릭",
+        "market": "KOSPI",
+        "price": 345000,
+        "rate": 4.8,
+        "trade_value_eok": 3800.0
+      },
+      {
+        "rank": 6,
+        "code": "010950",
+        "name": "S-Oil",
+        "market": "KOSPI",
+        "price": 78500,
+        "rate": 6.2,
+        "trade_value_eok": 3450.0
+      },
+      {
+        "rank": 7,
+        "code": "005380",
+        "name": "현대차",
+        "market": "KOSPI",
+        "price": 245000,
+        "rate": 1.45,
+        "trade_value_eok": 3100.0
+      },
+      {
+        "rank": 8,
+        "code": "034020",
+        "name": "두산에너빌리티",
+        "market": "KOSPI",
+        "price": 21500,
+        "rate": 3.2,
+        "trade_value_eok": 3070.0
+      },
+      {
+        "rank": 9,
+        "code": "079550",
+        "name": "LIG넥스원",
+        "market": "KOSPI",
+        "price": 228000,
+        "rate": 3.52,
+        "trade_value_eok": 3020.0
+      },
+      {
+        "rank": 10,
+        "code": "007660",
+        "name": "이수페타시스",
+        "market": "KOSPI",
+        "price": 48500,
+        "rate": 4.2,
+        "trade_value_eok": 2950.0
+      },
+      {
+        "rank": 11,
+        "code": "003230",
+        "name": "삼양식품",
+        "market": "KOSPI",
+        "price": 640000,
+        "rate": 3.5,
+        "trade_value_eok": 2800.0
+      },
+      {
+        "rank": 12,
+        "code": "096770",
+        "name": "SK이노베이션",
+        "market": "KOSPI",
+        "price": 118000,
+        "rate": 5.1,
+        "trade_value_eok": 2680.0
+      },
+      {
+        "rank": 13,
+        "code": "064350",
+        "name": "현대로템",
+        "market": "KOSPI",
+        "price": 55200,
+        "rate": 3.49,
+        "trade_value_eok": 2680.0
+      },
+      {
+        "rank": 14,
+        "code": "298040",
+        "name": "효성중공업",
+        "market": "KOSPI",
+        "price": 420000,
+        "rate": 4.3,
+        "trade_value_eok": 2450.0
+      },
+      {
+        "rank": 15,
+        "code": "000270",
+        "name": "기아",
+        "market": "KOSPI",
+        "price": 112000,
+        "rate": 1.3,
+        "trade_value_eok": 2400.0
+      },
+      {
+        "rank": 16,
+        "code": "206640",
+        "name": "삼성바이오로직스",
+        "market": "KOSPI",
+        "price": 985000,
+        "rate": 1.95,
+        "trade_value_eok": 2350.0
+      },
+      {
+        "rank": 17,
+        "code": "010120",
+        "name": "LS ELECTRIC",
+        "market": "KOSPI",
+        "price": 195000,
+        "rate": 3.8,
+        "trade_value_eok": 2200.0
+      },
+      {
+        "rank": 18,
+        "code": "068270",
+        "name": "셀트리온",
+        "market": "KOSPI",
+        "price": 192000,
+        "rate": 1.6,
+        "trade_value_eok": 2150.0
+      },
+      {
+        "rank": 19,
+        "code": "105560",
+        "name": "KB금융",
+        "market": "KOSPI",
+        "price": 88000,
+        "rate": 2.1,
+        "trade_value_eok": 2100.0
+      },
+      {
+        "rank": 20,
+        "code": "138040",
+        "name": "메리츠금융지주",
+        "market": "KOSPI",
+        "price": 98000,
+        "rate": 2.5,
+        "trade_value_eok": 1920.0
+      }
+    ],
+    "kosdaq_0184": [
+      {
+        "rank": 1,
+        "code": "196170",
+        "name": "알테오젠",
+        "market": "KOSDAQ",
+        "price": 320000,
+        "rate": 3.9,
+        "trade_value_eok": 3900.0
+      },
+      {
+        "rank": 2,
+        "code": "257720",
+        "name": "실리콘투",
+        "market": "KOSDAQ",
+        "price": 46500,
+        "rate": 4.6,
+        "trade_value_eok": 3300.0
+      },
+      {
+        "rank": 3,
+        "code": "141080",
+        "name": "리가켐바이오",
+        "market": "KOSDAQ",
+        "price": 112000,
+        "rate": 4.1,
+        "trade_value_eok": 2900.0
+      },
+      {
+        "rank": 4,
+        "code": "000250",
+        "name": "삼천당제약",
+        "market": "KOSDAQ",
+        "price": 158000,
+        "rate": 4.5,
+        "trade_value_eok": 2750.0
+      },
+      {
+        "rank": 5,
+        "code": "161580",
+        "name": "필옵틱스",
+        "market": "KOSDAQ",
+        "price": 28500,
+        "rate": 3.59,
+        "trade_value_eok": 2708.0
+      },
+      {
+        "rank": 6,
+        "code": "087010",
+        "name": "펩트론",
+        "market": "KOSDAQ",
+        "price": 89000,
+        "rate": 5.1,
+        "trade_value_eok": 2650.0
+      },
+      {
+        "rank": 7,
+        "code": "064260",
+        "name": "다날",
+        "market": "KOSDAQ",
+        "price": 4850,
+        "rate": 5.8,
+        "trade_value_eok": 2480.0
+      },
+      {
+        "rank": 8,
+        "code": "089030",
+        "name": "테크윙",
+        "market": "KOSDAQ",
+        "price": 54000,
+        "rate": 4.8,
+        "trade_value_eok": 2450.0
+      },
+      {
+        "rank": 9,
+        "code": "232140",
+        "name": "와이씨",
+        "market": "KOSDAQ",
+        "price": 17500,
+        "rate": 5.2,
+        "trade_value_eok": 2380.0
+      },
+      {
+        "rank": 10,
+        "code": "247540",
+        "name": "에코프로비엠",
+        "market": "KOSDAQ",
+        "price": 172000,
+        "rate": 1.2,
+        "trade_value_eok": 2200.0
+      },
+      {
+        "rank": 11,
+        "code": "052400",
+        "name": "코나아이",
+        "market": "KOSDAQ",
+        "price": 18500,
+        "rate": 8.45,
+        "trade_value_eok": 2150.0
+      },
+      {
+        "rank": 12,
+        "code": "058470",
+        "name": "리노공업",
+        "market": "KOSDAQ",
+        "price": 215000,
+        "rate": 2.8,
+        "trade_value_eok": 2100.0
+      },
+      {
+        "rank": 13,
+        "code": "033100",
+        "name": "제룡전기",
+        "market": "KOSDAQ",
+        "price": 62000,
+        "rate": 3.58,
+        "trade_value_eok": 2063.0
+      },
+      {
+        "rank": 14,
+        "code": "086520",
+        "name": "에코프로",
+        "market": "KOSDAQ",
+        "price": 85000,
+        "rate": 1.1,
+        "trade_value_eok": 1950.0
+      },
+      {
+        "rank": 15,
+        "code": "060250",
+        "name": "NHN KCP",
+        "market": "KOSDAQ",
+        "price": 11200,
+        "rate": 4.4,
+        "trade_value_eok": 1850.0
+      },
+      {
+        "rank": 16,
+        "code": "298380",
+        "name": "에이비엘바이오",
+        "market": "KOSDAQ",
+        "price": 36500,
+        "rate": 3.8,
+        "trade_value_eok": 1750.0
+      },
+      {
+        "rank": 17,
+        "code": "094480",
+        "name": "갤럭시아머니트리",
+        "market": "KOSDAQ",
+        "price": 9450,
+        "rate": 6.8,
+        "trade_value_eok": 1620.0
+      },
+      {
+        "rank": 18,
+        "code": "394280",
+        "name": "오픈엣지테크놀로지",
+        "market": "KOSDAQ",
+        "price": 28500,
+        "rate": 4.5,
+        "trade_value_eok": 1620.0
+      },
+      {
+        "rank": 19,
+        "code": "277810",
+        "name": "레인보우로보틱스",
+        "market": "KOSDAQ",
+        "price": 142000,
+        "rate": 2.9,
+        "trade_value_eok": 1550.0
+      },
+      {
+        "rank": 20,
+        "code": "099320",
+        "name": "쎄트렉아이",
+        "market": "KOSDAQ",
+        "price": 56000,
+        "rate": 4.2,
+        "trade_value_eok": 1480.0
+      }
+    ]
+  }
+}

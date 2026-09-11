@@ -1,0 +1,68 @@
+# ==============================================================================
+# 🛡️ [ANTIGRAVITY MULTI-BOT GITIGNORE: ZERO-LEAK SECURITY PROFILE]
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local databases & Trade Journals (Keep private data safe!)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+/research/*.sqlite
+/research/*.db
+
+# Real-time state caches & runtime logs
+/data/account_state.json
+/data/approval_log.json
+*.log
+/logs/
+
+# Large datasets & stock/coin history (Do not push gigabytes to git)
+*.csv
+*.xlsx
+/data/
+/coin/data/
+
+# Sensitive Environment Configurations
+.env
+.env.local
+rest_api_key.env
+coin_api_key.env
+*.env
+*.secret
+*.pem
+*.key
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini

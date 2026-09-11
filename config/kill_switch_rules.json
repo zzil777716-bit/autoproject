@@ -1,0 +1,48 @@
+{
+  "kill_switch_rules": [
+    {
+      "id": "RULE_MAX_DAILY_LOSS",
+      "name": "계좌 일일 최대 손실 킬스위치",
+      "type": "daily_loss_limit",
+      "threshold_won": -500000,
+      "action": "HALT_ALL_STRATEGIES",
+      "description": "당일 누적 실현/평가 손실이 50만원을 초과할 경우 모든 신규 진입 즉시 중단"
+    },
+    {
+      "id": "RULE_CONSECUTIVE_LOSS_COOLDOWN",
+      "name": "연속 손실 쿨다운 룰",
+      "type": "consecutive_losses",
+      "threshold_count": 2,
+      "cooldown_minutes": 15,
+      "action": "COOLDOWN",
+      "description": "2회 연속 손실 발생 시 15분간 신규 매매 진입 일시 정지"
+    },
+    {
+      "id": "RULE_MAX_DAILY_TRADES",
+      "name": "전략별 일일 최대 매매 횟수 제한",
+      "type": "max_daily_trades",
+      "threshold_count": 3,
+      "action": "STOP_STRATEGY_FOR_DAY",
+      "description": "과도한 뇌동매매 및 수수료 잠식을 방지하기 위해 1일 3회 매매 완료 시 당일 거래 종료"
+    },
+    {
+      "id": "RULE_MAX_ORDER_ATTEMPTS",
+      "name": "일일 최대 주문 시도 횟수 제한 (주문 폭격 방어)",
+      "type": "max_order_attempts",
+      "threshold_count": 5,
+      "action": "HALT_ALL_STRATEGIES",
+      "description": "미체결 포함 1일 5회 이상 주문 시도시 무한 발주 루프 방어를 위해 즉시 킬스위치 발동"
+    },
+    {
+      "id": "RULE_BLACKOUT_WINDOW",
+      "name": "시초가 / 점심시간 / 장마감 3중 블랙아웃 가드레일",
+      "type": "time_blackout",
+      "morning_blackout_end": "09:15:00",
+      "lunch_blackout_start": "12:00:00",
+      "lunch_blackout_end": "13:00:00",
+      "afternoon_blackout_start": "15:15:00",
+      "action": "BLOCK_ENTRY",
+      "description": "09:00~09:15(시초가), 12:00~13:00(점심 휩쏘), 15:15 이후(장마감) 신규 진입 원천 차단"
+    }
+  ]
+}

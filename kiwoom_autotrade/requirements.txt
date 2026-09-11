@@ -1,0 +1,9 @@
+# Kiwoom Securities MTF Automated Trading System Dependencies
+# NOTE: Requires 32-bit Python on Windows (e.g. Python 3.10 32-bit)
+
+PyQt5>=5.15.9
+pandas>=2.0.0
+numpy>=1.24.0
+duckdb>=0.9.0
+pyarrow>=14.0.0
+requests>=2.31.0
