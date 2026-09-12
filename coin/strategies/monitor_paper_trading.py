@@ -21,8 +21,9 @@ import requests
 
 # 프로젝트 경로 추가
 BASE_DIR = r"C:\Antigravity\coin"
-if BASE_DIR not in sys.path:
-    sys.path.append(BASE_DIR)
+if BASE_DIR in sys.path:
+    sys.path.remove(BASE_DIR)
+sys.path.insert(0, BASE_DIR)
 
 from config.settings import coin_config
 from adapters.upbit_adapter import UpbitAdapter
