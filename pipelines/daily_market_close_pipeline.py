@@ -46,6 +46,19 @@ def log_step(step_num: int, title: str):
     print(f">> 시각: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 80)
 
+def step0_collect_infostock_theme_map():
+    """0단계: 인포스탁 전종목 테마지도 무료 취합 및 일일 엑셀/JSON 갱신"""
+    log_step(0, "인포스탁 266개 전체 테마 및 전 종목 테마지도 자동 취합 & 엑셀/JSON 갱신")
+    try:
+        from collectors.infostock_theme_map_collector import InfostockThemeMapCollector
+        collector = InfostockThemeMapCollector()
+        collector.collect_and_build_map()
+        print(">> [Step 0 완료] 인포스탁 전종목 테마지도 갱신 및 구글드라이브 배포 완료!")
+        return True
+    except Exception as e:
+        print(f">> [Step 0 경고] 테마지도 수집 중 오류: {e}")
+        return False
+
 def step1_collect_daily_universe():
     """1단계: 350개 종목 최신 일봉 수집 및 마스터 갱신"""
     log_step(1, "350개 전 종목(코스피200/코스닥150) 일봉 데이터 자동 수집 및 갱신")
@@ -133,6 +146,9 @@ def run_pipeline(target_date: str = None):
     print("🚀 [Antigravity] 장 마감 일일 데이터 수집 & 2대 검증 자동화 파이프라인 가동")
     print(f">> 대상 영업일자: {today_str}")
     print("#" * 80)
+
+    # 0. 인포스탁 전종목 테마지도 자동 취합 및 갱신
+    step0_collect_infostock_theme_map()
 
     # 1. 일봉 수집 (당일 장 마감 데이터 최신화)
     step1_collect_daily_universe()
