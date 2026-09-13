@@ -35,6 +35,7 @@ def print_menu():
     print("      🚀 [Antigravity Multi-Bot Control Center] Enterprise Architecture")
     print("=" * 82)
     print("  G. [GUI PRO]    🖥️ Launch Interactive Mouse-Driven GUI Dashboard (방안 1 추천 🌟)")
+    print("  W. [WICK-BOT]   🎯 Start Upper Wick Bullish Breakout (Hot-Cold AI Gatekeeper) Monitor")
     print("  1. [ALL-IN-ONE] 🚀 Start ALL Trading Workers (Dual Engine: Strategy A + B) Simultaneously")
     print("  2. [SAM-BOT]    🔵 Start Samsung Worker (Dual: 3-Lines + 20-60-120 Disparity)")
     print("  3. [SK-BOT]     🟣 Start SK Hynix Worker (Dual: 3-Lines + 20-60-120 Disparity)")
@@ -81,6 +82,12 @@ def main():
         if choice.upper() == "G":
             print("\n>> [GUI DASHBOARD] Launching Interactive Mouse-Driven GUI Dashboard...")
             run_script("Antigravity GUI Dashboard", os.path.join(BASE_DIR, "gui_launcher.py"))
+            pause()
+
+        elif choice.upper() == "W":
+            print("\n>> [WICK-BOT] Launching Upper Wick Bullish Breakout (Hot-Cold AI Gatekeeper) Monitor...")
+            run_script("WICK-BOT AI Monitor", os.path.join(BASE_DIR, "workers", "realtime_hot_cold_monitor.py"))
+            print(">> [OK] Upper Wick Breakout AI Monitor launched in separate window!")
             pause()
 
         elif choice == "1":
