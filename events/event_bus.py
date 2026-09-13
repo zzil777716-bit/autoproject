@@ -84,7 +84,7 @@ class OutboxEventBus(EventBus):
     2. OrderCommand / TradeFilled / RiskAlert: SQLite outbox에 먼저 'PENDING'으로 기록 후 발행 (장애 복구 보장)
     3. 프로세스 재기동 시 replay_unprocessed_events()로 누락 이벤트 자동 복원
     """
-    def __init__(self, db_dir: str = r"C:\Antigravity\data\research"):
+    def __init__(self, db_dir: str = r"D:\ANTIGRAVITY(자동매매)\data\research"):
         self.db_dir = db_dir
         os.makedirs(self.db_dir, exist_ok=True)
         self.db_path = os.path.join(self.db_dir, "event_outbox.sqlite")

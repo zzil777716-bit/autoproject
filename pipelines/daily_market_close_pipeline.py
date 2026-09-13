@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-C:/Antigravity/pipelines/daily_market_close_pipeline.py
+D:/ANTIGRAVITY(자동매매)/pipelines/daily_market_close_pipeline.py
 ================================================================================
 🏛️ [Antigravity Multi-Agent Council]
 장 마감 후 매일 데이터 자동 수집 및 2대 검증(장기이평 윗꼬리 / 햄버거 주도주) 업데이트 파이프라인
@@ -31,14 +31,14 @@ try:
 except Exception:
     pass
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 sys.path.insert(0, BASE_DIR)
 
 DEFAULT_PYTHON = r"C:\Users\HONG\AppData\Local\Programs\Python\Python310-32\python.exe"
 PYTHON_EXE = DEFAULT_PYTHON if os.path.exists(DEFAULT_PYTHON) else sys.executable
 
 GDRIVE_USER_VERIFY = r"G:\내 드라이브\Antigravity\사용자 검증"
-LOCAL_USER_VERIFY = r"C:\Antigravity\data\사용자_검증"
+LOCAL_USER_VERIFY = r"D:\ANTIGRAVITY(자동매매)\data\사용자_검증"
 
 def log_step(step_num: int, title: str):
     print("\n" + "=" * 80)
@@ -201,7 +201,7 @@ def run_pipeline(target_date: str = None):
     print(f"   • 로컬 저장소: {LOCAL_USER_VERIFY}")
     print(f"   • 바탕화면 캘린더: C:\\Users\\HONG\\Desktop\\증시_주도테마_캘린더.html")
     print(f"   • 최신 스윙 매매지침: G:\\내 드라이브\\Antigravity\\사용자 검증\\최신_스윙전략_매매지침.md")
-    print(f"   • AST 코드 압축 맵: C:\\Antigravity\\data\\code_ast_index\\REPO_COMPRESSED_AST_MAP.md")
+    print(f"   • AST 코드 압축 맵: D:\\ANTIGRAVITY(자동매매)\\data\\code_ast_index\\REPO_COMPRESSED_AST_MAP.md")
     print("=" * 80)
 
 if __name__ == "__main__":

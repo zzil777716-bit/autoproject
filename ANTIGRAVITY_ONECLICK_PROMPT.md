@@ -14,18 +14,18 @@
 
 1. [시스템 환경 검증]
    - 파이썬 환경 및 필수 라이브러리(pandas, requests, pyjwt 등) 점검
-   - C:\Antigravity\.env 및 C:\Antigravity\coin\coin_api_key.env API 설정 파일 존재 확인 및 계좌 연결 상태 점검
+   - D:\ANTIGRAVITY(자동매매)\.env 및 D:\ANTIGRAVITY(자동매매)\coin\coin_api_key.env API 설정 파일 존재 확인 및 계좌 연결 상태 점검
    - .agents/skills/quant-trading-core 스킬 활성화 확인
 
 2. [불필요 플러그인 정리 & MCP 서버 튜닝]
    - science, firebase, chrome-devtools 등 트레이딩과 무관한 플러그인이 켜져 있다면 disabled 처리
-   - mcp_config.json에서 trading-filesystem 경로가 C:\Antigravity, C:\1, G:\내 드라이브\Antigravity 로 정상 연결되었는지 확인
+   - mcp_config.json에서 trading-filesystem 경로가 D:\ANTIGRAVITY(자동매매), C:\1, G:\내 드라이브\Antigravity 로 정상 연결되었는지 확인
 
 3. [코인 24시간 실시간 무인 감시/매매 엔진 가동]
    - 대상: BTC, ETH, SOL, XRP, DOGE, ADA, SUI
    - 전략: 고지로 대순환 제1기(퍼펙트오더) + 쿨라매기 VCP 돌파 + 아담 쿠 20 EMA 지지 반등
    - 가드레일: 비트코인 50일선 상향 필터, 알트코인 비중 25~40% 축소 배팅, 하드스탑 -3.5%
-   - 백그라운드 데몬(C:\Antigravity\coin\strategies\monitor_paper_trading.py) 즉시 백그라운드 가동
+   - 백그라운드 데몬(D:\ANTIGRAVITY(자동매매)\coin\strategies\monitor_paper_trading.py) 즉시 백그라운드 가동
 
 4. [텔레그램 양방향 컨트롤러 가동]
    - 스마트폰 텔레그램 연동 데몬(telegram_final_service.py) 백그라운드 실행
@@ -41,7 +41,7 @@
 1. **Python 설치**: Python 3.10+ 설치 (환경변수 PATH 등록)
 2. **저장소 클론**:
    \\ash
-   git clone https://github.com/zzil777716-bit/autoproject.git C:\Antigravity
+   git clone https://github.com/zzil777716-bit/autoproject.git D:\ANTIGRAVITY(자동매매)
    \3. **필수 패키지 설치**:
    \\ash
    pip install pandas requests pyjwt python-dotenv dulwich

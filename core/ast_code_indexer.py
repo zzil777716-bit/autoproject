@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-C:/Antigravity/core/ast_code_indexer.py
+D:/ANTIGRAVITY(자동매매)/core/ast_code_indexer.py
 ================================================================================
 🏛️ [Antigravity AI Architecture]
 영상 기반: Tree-sitter & AST 기반 코드 압축/환각 방지 인덱서 (RepoMind & CodeRAG 방식)
@@ -32,7 +32,7 @@ except Exception:
     pass
 
 class ASTCodeIndexer:
-    def __init__(self, root_dir=r"C:\Antigravity"):
+    def __init__(self, root_dir=r"D:\ANTIGRAVITY(자동매매)"):
         self.root_dir = Path(root_dir)
         self.repo_index = {}
         self.dependency_graph = {}

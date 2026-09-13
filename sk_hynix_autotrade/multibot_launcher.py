@@ -19,8 +19,8 @@ except Exception:
 # Python 32-bit Path validation & Fallback
 DEFAULT_PYTHON = r"C:\Users\HONG\AppData\Local\Programs\Python\Python310-32\python.exe"
 PYTHON_EXE = DEFAULT_PYTHON if os.path.exists(DEFAULT_PYTHON) else sys.executable
-SAM_DIR = r"C:\Antigravity\kiwoom_autotrade"
-SK_DIR = r"C:\Antigravity\sk_hynix_autotrade"
+SAM_DIR = r"D:\ANTIGRAVITY(자동매매)\kiwoom_autotrade"
+SK_DIR = r"D:\ANTIGRAVITY(자동매매)\sk_hynix_autotrade"
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')

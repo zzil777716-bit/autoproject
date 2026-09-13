@@ -23,7 +23,7 @@ if hasattr(sys.stdout, 'reconfigure'):
 if hasattr(sys.stderr, 'reconfigure'):
     sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 sys.path.insert(0, BASE_DIR)
 
 def is_business_day(check_date: date) -> bool:

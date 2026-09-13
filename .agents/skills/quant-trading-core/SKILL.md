@@ -52,6 +52,6 @@ description: "Core quant strategies, multi-factor setups, risk parameters, and o
 4. **트레일링 스탑 (Trailing Stop)**: 1차 목표 수익(+2.5%~+3.0%) 달성 시 본절 스탑 전환
 
 ## 🔌 연동 파이프라인
-- **업비트(Upbit)**: `C:\Antigravity\coin\adapters\upbit_adapter.py`
-- **키움증권(Kiwoom REST)**: `C:\Antigravity\adapters\kiwoom_adapter.py`
+- **업비트(Upbit)**: `D:\ANTIGRAVITY(자동매매)\coin\adapters\upbit_adapter.py`
+- **키움증권(Kiwoom REST)**: `D:\ANTIGRAVITY(자동매매)\adapters\kiwoom_adapter.py`
 - **텔레그램 컨트롤러**: `telegram_final_service.py` (@hong_auto_bot)

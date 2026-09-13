@@ -9,7 +9,7 @@
 - **운영체제**: Windows 10 / 11 (키움증권 OpenAPI 32비트/REST 64비트 및 업비트 호환)
 - **런타임**: Python 3.10+ (32비트 또는 64비트)
 - **개발환경**: Antigravity IDE
-- **스토리지 권장**: C:\Antigravity (기본 작업 공간)
+- **스토리지 권장**: D:\ANTIGRAVITY(자동매매) (기본 작업 공간)
 
 ---
 
@@ -17,8 +17,8 @@
 
 ### 1단계: 프로젝트 다운로드 (Git Clone)
 \\ash
-git clone https://github.com/zzil777716-bit/autoproject.git C:\Antigravity
-cd C:\Antigravity
+git clone https://github.com/zzil777716-bit/autoproject.git D:\ANTIGRAVITY(자동매매)
+cd D:\ANTIGRAVITY(자동매매)
 \
 ### 2단계: 필수 패키지 설치
 \\ash
@@ -26,8 +26,8 @@ pip install pandas numpy requests pyjwt python-dotenv dulwich
 \
 ### 3단계: 거래소 및 텔레그램 API 키 설정
 프로젝트 내 템플릿 파일을 복사하여 나만의 키를 입력합니다:
-1. C:\Antigravity\.env.example -> C:\Antigravity\.env 로 복사 후 편집
-2. C:\Antigravity\coin\coin_api_key.env.example -> C:\Antigravity\coin\coin_api_key.env 로 복사 후 편집
+1. D:\ANTIGRAVITY(자동매매)\.env.example -> D:\ANTIGRAVITY(자동매매)\.env 로 복사 후 편집
+2. D:\ANTIGRAVITY(자동매매)\coin\coin_api_key.env.example -> D:\ANTIGRAVITY(자동매매)\coin\coin_api_key.env 로 복사 후 편집
 
 *입력할 항목*:
 - **업비트**: Access Key, Secret Key (Open API 관리에서 발급, 자산조회/주문 권한 체크)
@@ -38,7 +38,7 @@ pip install pandas numpy requests pyjwt python-dotenv dulwich
 
 ## 🎯 3. Antigravity AI에게 한 번에 지시하는 법
 
-1. Antigravity IDE를 실행하고 C:\Antigravity 폴더를 엽니다.
+1. Antigravity IDE를 실행하고 D:\ANTIGRAVITY(자동매매) 폴더를 엽니다.
 2. ANTIGRAVITY_ONECLICK_PROMPT.md 파일의 지시문을 복사하여 Antigravity 채팅창에 붙여넣습니다.
 3. Antigravity가 자동으로:
    - 9대 AI 이사회를 소집하고,

@@ -27,7 +27,7 @@ from collectors.hts_theme_collector import HTSThemeCollector
 from storage.gdrive_sync import GDriveSync
 
 class ThemeCalendarWorker:
-    def __init__(self, base_dir: str = r"C:\Antigravity"):
+    def __init__(self, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         self.base_dir = base_dir
         self.themes_dir = os.path.join(base_dir, "data", "themes")
         self.calendar_dir = os.path.join(base_dir, "data", "calendar")

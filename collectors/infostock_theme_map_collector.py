@@ -4,8 +4,8 @@
 🏛️ [COLLECTOR: INFOSTOCK THEME MAP COLLECTOR]
 - 인포스탁/네이버 무료 제공 266개 전체 테마 및 전 종목 테마 지도 매일 자동 구축
 - 산출물:
-  1) C:\Antigravity\data\themes\infostock_theme_map_latest.json
-  2) C:\Antigravity\data\themes\infostock_stock_to_themes.json (종목코드 -> 소속 테마 목록 역색인)
+  1) D:\ANTIGRAVITY(자동매매)\data\themes\infostock_theme_map_latest.json
+  2) D:\ANTIGRAVITY(자동매매)\data\themes\infostock_stock_to_themes.json (종목코드 -> 소속 테마 목록 역색인)
   3) G:\내 드라이브\Antigravity\테마\전종목_인포스탁_테마지도_YYYY-MM-DD.xlsx
   4) G:\내 드라이브\Antigravity\테마\전종목_인포스탁_테마지도_최신.xlsx
 ========================================================================================
@@ -27,7 +27,7 @@ try:
 except Exception:
     pass
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 LOCAL_THEME_DIR = os.path.join(BASE_DIR, "data", "themes")
 GDRIVE_THEME_DIR = r"G:\내 드라이브\Antigravity\테마"
 

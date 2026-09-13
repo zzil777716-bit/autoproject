@@ -7,6 +7,6 @@ if not exist "%PYTHON_EXE%" (
     set "PYTHON_EXE=python"
 )
 
-cd /d "C:\Antigravity"
-"%PYTHON_EXE%" "C:\Antigravity\multibot_launcher.py"
+cd /d "D:\ANTIGRAVITY(자동매매)"
+"%PYTHON_EXE%" "D:\ANTIGRAVITY(자동매매)\multibot_launcher.py"
 pause

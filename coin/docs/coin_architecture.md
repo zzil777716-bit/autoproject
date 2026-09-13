@@ -1,7 +1,7 @@
 # 🪙 Antigravity Crypto Trading Engine Architecture Blueprint
 **작성 주체: 9대 AI 영구 이사회 (Permanent Council)**  
 **목적: 24시간 365일 무중단 가상자산 퀀트 복리 증식 및 원금 방어**  
-**위치: `C:\Antigravity\coin`**
+**위치: `D:\ANTIGRAVITY(자동매매)\coin`**
 
 ---
 
@@ -12,10 +12,10 @@
 
 ---
 
-## 2. 📂 디렉토리 구조도 (`C:\Antigravity\coin`)
+## 2. 📂 디렉토리 구조도 (`D:\ANTIGRAVITY(자동매매)\coin`)
 
 ```
-C:\Antigravity\coin\
+D:\ANTIGRAVITY(자동매매)\coin\
 ├── adapters\                  # [거래소 통신 어댑터 계층]
 │   ├── upbit_adapter.py       # 업비트 REST API (JWT 토큰, 계좌, 시세, 주문)
 │   └── bithumb_adapter.py     # 빗썸 REST API (HMAC-SHA512 서명, 계좌, 시세, 주문)
@@ -64,4 +64,4 @@ C:\Antigravity\coin\
 ## 5. 🚀 향후 가동 절차
 1. 사용자 선택: **업비트(Upbit)** 또는 **빗썸(Bithumb)** 중 사용할 거래소 결정.
 2. API Key 발급: 해당 거래소 홈페이지에서 `OpenAPI Key`(입출금 금지, 조회/주문만 허용) 발급 후 `.env` 등록.
-3. 무인 백그라운드 구동: `python C:\Antigravity\coin\run_coin_bot.py` 실행 시 24시간 자율 가동.
+3. 무인 백그라운드 구동: `python D:\ANTIGRAVITY(자동매매)\coin\run_coin_bot.py` 실행 시 24시간 자율 가동.

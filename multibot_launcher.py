@@ -18,7 +18,7 @@ except Exception:
 
 DEFAULT_PYTHON = r"C:\Users\HONG\AppData\Local\Programs\Python\Python310-32\python.exe"
 PYTHON_EXE = DEFAULT_PYTHON if os.path.exists(DEFAULT_PYTHON) else sys.executable
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')

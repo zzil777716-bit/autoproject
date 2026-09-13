@@ -15,8 +15,8 @@ research/analyze_universe_350_stocks.py
    - 15분봉 리샘플링 후 핵심 매물대(POC: Point of Control) 1, 2, 3차 지지저항선
 3. 전략 적합도 및 주도주 등급화 (S/A/B/C)
 4. 결과물 출력:
-   - C:\Antigravity\data\종목데이터\350종목_거래대금_수급분석_마스터.xlsx
-   - C:\Antigravity\data\종목데이터\350종목_거래대금_기준치.json
+   - D:\ANTIGRAVITY(자동매매)\data\종목데이터\350종목_거래대금_수급분석_마스터.xlsx
+   - D:\ANTIGRAVITY(자동매매)\data\종목데이터\350종목_거래대금_기준치.json
    - Google Drive 백업
 """
 
@@ -30,7 +30,7 @@ import numpy as np
 from datetime import datetime
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
-LOCAL_DATA_DIR = r"C:\Antigravity\data\종목데이터"
+LOCAL_DATA_DIR = r"D:\ANTIGRAVITY(자동매매)\data\종목데이터"
 GDRIVE_DATA_DIR = r"G:\내 드라이브\Antigravity\종목데이터"
 
 def analyze_single_stock(symbol, name, market, p_3m, p_daily):

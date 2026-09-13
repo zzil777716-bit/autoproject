@@ -74,7 +74,7 @@ class BacktestDataFeed(DataFeed):
 
 class MultiTimeframeFeed:
     """멀티 타임프레임 (15M, 5M, 3M) 실시간 및 과거 시계열 관리 피드"""
-    def __init__(self, code: str, base_dir: str = r"C:\Antigravity"):
+    def __init__(self, code: str, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         self.code = code
         self.base_dir = base_dir
         self.dfs: Dict[str, pd.DataFrame] = {

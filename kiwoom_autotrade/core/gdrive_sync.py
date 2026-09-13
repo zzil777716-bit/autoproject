@@ -88,5 +88,5 @@ class GDriveSync:
 
 if __name__ == "__main__":
     syncer = GDriveSync()
-    syncer.sync_all_research_and_data("C:\\Antigravity\\kiwoom_autotrade")
-    syncer.sync_all_research_and_data("C:\\Antigravity\\sk_hynix_autotrade")
+    syncer.sync_all_research_and_data("D:\\ANTIGRAVITY(자동매매)\\kiwoom_autotrade")
+    syncer.sync_all_research_and_data("D:\\ANTIGRAVITY(자동매매)\\sk_hynix_autotrade")

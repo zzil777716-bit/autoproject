@@ -18,7 +18,7 @@ from api.command_service import CommandService
 
 class TestArchitectureEnhancements(unittest.TestCase):
     def setUp(self):
-        self.test_dir = r"C:\Antigravity\data\research"
+        self.test_dir = r"D:\ANTIGRAVITY(자동매매)\data\research"
         self.bus = OutboxEventBus(db_dir=self.test_dir)
         self.bus.reset_global_halt_state()
 

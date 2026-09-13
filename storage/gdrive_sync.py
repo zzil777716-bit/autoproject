@@ -105,7 +105,7 @@ class GDriveSync:
             print(f">> [GDriveSync] [ERROR] 동기화 실패 ({source_path}): {e}")
             return False
 
-    def sync_all(self, base_dir: str = r"C:\Antigravity"):
+    def sync_all(self, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         """로컬 전체 하위 산출물 일괄 동기화 (배치/스케줄용)"""
         print(f"\n>> [GDriveSync] 🔄 구글 드라이브 전 계층 자동 동기화 시작...")
         

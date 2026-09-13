@@ -20,7 +20,7 @@ import pandas as pd
 import requests
 
 # 프로젝트 경로 추가
-BASE_DIR = r"C:\Antigravity\coin"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)\coin"
 if BASE_DIR in sys.path:
     sys.path.remove(BASE_DIR)
 sys.path.insert(0, BASE_DIR)

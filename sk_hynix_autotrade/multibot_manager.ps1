@@ -5,8 +5,8 @@
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $PythonExe = "C:\Users\HONG\AppData\Local\Programs\Python\Python310-32\python.exe"
-$SamDir = "C:\Antigravity\kiwoom_autotrade"
-$SkDir = "C:\Antigravity\sk_hynix_autotrade"
+$SamDir = "D:\ANTIGRAVITY(자동매매)\kiwoom_autotrade"
+$SkDir = "D:\ANTIGRAVITY(자동매매)\sk_hynix_autotrade"
 
 function Show-Menu {
     Clear-Host

@@ -35,7 +35,7 @@ try:
 except Exception:
     pass
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 LOCAL_DATA_DIR = os.path.join(BASE_DIR, "data", "종목데이터")
 GDRIVE_DATA_DIR = r"G:\내 드라이브\Antigravity\종목데이터"
 
@@ -178,7 +178,7 @@ class InvestorSupplyCollector:
         print("=" * 80)
 
         # 350개 일봉 파일 목록 확보
-        daily_files = glob.glob(r"C:\Antigravity\data\*\*\일봉\*.csv")
+        daily_files = glob.glob(r"D:\ANTIGRAVITY(자동매매)\data\*\*\일봉\*.csv")
         print(f">> 대상 일봉 파일 수: {len(daily_files)}개")
 
         t0 = time.time()
@@ -203,7 +203,7 @@ class InvestorSupplyCollector:
         """구글 드라이브로 수급 데이터가 반영된 일봉 파일 동기화"""
         print("\n>> ☁️ 구글 드라이브로 수급 통합 일봉 데이터 동기화 복사 중...")
         try:
-            daily_files = glob.glob(r"C:\Antigravity\data\*\*\일봉\*.csv")
+            daily_files = glob.glob(r"D:\ANTIGRAVITY(자동매매)\data\*\*\일봉\*.csv")
             for f in daily_files:
                 p = os.path.normpath(f)
                 parts = p.split(os.sep)

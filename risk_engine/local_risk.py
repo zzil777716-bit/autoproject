@@ -27,7 +27,7 @@ class Position:
     status: str = "ACTIVE"  # "ACTIVE", "CLOSING", "CLOSED"
 
 class LocalRiskManager:
-    def __init__(self, code: str, stock_name: str, stop_loss_pct: float = -0.90, base_dir: str = r"C:\Antigravity"):
+    def __init__(self, code: str, stock_name: str, stop_loss_pct: float = -0.90, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         self.code = str(code).zfill(6)
         self.stock_name = stock_name
         self.stop_loss_pct = stop_loss_pct

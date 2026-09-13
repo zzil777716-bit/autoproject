@@ -22,13 +22,13 @@ PYTHON_EXE = r"C:\Users\HONG\AppData\Local\Programs\Python\Python310-32\python.e
 PROJECTS = [
     {
         "name": "[SAM-BOT] Samsung Electronics (005930)",
-        "dir": r"C:\Antigravity\kiwoom_autotrade",
+        "dir": r"D:\ANTIGRAVITY(자동매매)\kiwoom_autotrade",
         "script": "test_suite.py",
         "strategy": "Strategy 2: MTF-Squeeze & Divergence (1-Share Fixed)"
     },
     {
         "name": "[SK-BOT] SK Hynix (000660)",
-        "dir": r"C:\Antigravity\sk_hynix_autotrade",
+        "dir": r"D:\ANTIGRAVITY(자동매매)\sk_hynix_autotrade",
         "script": "test_suite.py",
         "strategy": "Triple-Screen Envelope Pullback (1-Share Fixed)"
     }

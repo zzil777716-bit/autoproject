@@ -18,7 +18,7 @@ from storage.data_lake import QuantDataLake
 class QueryService:
     """CQRS Query(읽기) 전용 서비스 — 주문 처리 및 쓰기 트래픽에 전혀 영향을 주지 않음"""
 
-    def __init__(self, base_dir: str = r"C:\Antigravity"):
+    def __init__(self, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         self.base_dir = base_dir
         self.datalake_sam = QuantDataLake(base_dir, partition_key="005930")
         self.datalake_sk = QuantDataLake(base_dir, partition_key="000660")

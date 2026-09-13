@@ -5,7 +5,7 @@ Automated High-Performance Data Collector for:
   1. KOSPI 200 (200 Constituents) - Daily Candles (일봉) + 3-Minute Candles (3분봉) + Master Summary
   2. KOSDAQ 150 (150 Constituents) - Daily Candles (일봉) + 3-Minute Candles (3분봉) + Master Summary
   3. Incremental Update: Automatically merges and accumulates new market data without data loss.
-  4. Dual Storage: Local (C:\\Antigravity\\data\\종목데이터) & Google Drive (G:\\내 드라이브\\Antigravity\\종목데이터)
+  4. Dual Storage: Local (D:\\ANTIGRAVITY(자동매매)\\data\\종목데이터) & Google Drive (G:\\내 드라이브\\Antigravity\\종목데이터)
 ========================================================================================
 """
 
@@ -30,7 +30,7 @@ try:
 except Exception:
     pass
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 LOCAL_DATA_DIR = os.path.join(BASE_DIR, "data", "종목데이터")
 LOCAL_KOSPI_DIR = os.path.join(LOCAL_DATA_DIR, "코스피200")
 LOCAL_KOSDAQ_DIR = os.path.join(LOCAL_DATA_DIR, "코스닥150")

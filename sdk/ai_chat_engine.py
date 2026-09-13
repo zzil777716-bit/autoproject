@@ -20,7 +20,7 @@ import requests
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 
 class GeminiTradingCopilot:
     def __init__(self):

@@ -8,7 +8,7 @@
 3. 수집 속도: TR/호출 제한에 절대 걸리지 않도록 1.8초 여유 슬립(Sleep) 적용
 4. 실행 시간: 밤 12시(00:05) 이후에 무인 자동 시작하여 백그라운드로 안전하게 분할 수집
 5. 저장소: 
-   - 로컬: C:\Antigravity\data\시총 1000억 이상\
+   - 로컬: D:\ANTIGRAVITY(자동매매)\data\시총 1000억 이상\
    - 구글 드라이브: G:\내 드라이브\Antigravity\data\시총 1000억 이상\
 6. 중복 방지: 이미 수집된 파일은 자동으로 건너뛰어(Skip) 며칠에 걸쳐 수집해도 이어받기 완벽 지원
 7. 주말 업데이트: 10년치가 모이면 주말마다 천천히 최신 데이터 업데이트
@@ -23,7 +23,7 @@ import datetime
 import pandas as pd
 import FinanceDataReader as fdr
 
-LOCAL_DIR = r"C:\Antigravity\data\시총 1000억 이상"
+LOCAL_DIR = r"D:\ANTIGRAVITY(자동매매)\data\시총 1000억 이상"
 GDRIVE_DIR = r"G:\내 드라이브\Antigravity\data\시총 1000억 이상"
 
 os.makedirs(LOCAL_DIR, exist_ok=True)

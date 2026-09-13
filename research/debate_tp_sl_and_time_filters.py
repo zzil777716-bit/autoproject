@@ -28,7 +28,7 @@ except Exception:
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def load_data(code: str):
-    base_dir = r"C:\Antigravity\data\timeseries"
+    base_dir = r"D:\ANTIGRAVITY(자동매매)\data\timeseries"
     df_15m = pd.read_csv(os.path.join(base_dir, f"{code}_15m.csv"))
     df_3m = pd.read_csv(os.path.join(base_dir, f"{code}_3m.csv"))
     df_15m['timestamp'] = pd.to_datetime(df_15m['timestamp'])

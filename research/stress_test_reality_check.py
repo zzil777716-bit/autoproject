@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from storage.gdrive_sync import GDriveSync
 
 class RealityStressTestEngine:
-    def __init__(self, base_dir: str = r"C:\Antigravity"):
+    def __init__(self, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         self.base_dir = base_dir
         self.timeseries_dir = os.path.join(base_dir, "data", "timeseries")
         self.reports_dir = os.path.join(base_dir, "reports")

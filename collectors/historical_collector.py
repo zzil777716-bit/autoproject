@@ -10,7 +10,7 @@ import pandas as pd
 from typing import Optional
 
 class HistoricalDataCollector:
-    def __init__(self, base_dir: str = r"C:\Antigravity"):
+    def __init__(self, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         self.base_dir = base_dir
         self.timeseries_dir = os.path.join(base_dir, "data", "timeseries")
         os.makedirs(self.timeseries_dir, exist_ok=True)

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-C:/Antigravity/strategies/daily_swing_evolution_engine.py
+D:/ANTIGRAVITY(자동매매)/strategies/daily_swing_evolution_engine.py
 ================================================================================
 🏛️ [Antigravity AI Council & Quant Engineering]
 매일 수집되는 종목 데이터 기반 '스윙 전략 자동 관찰 및 전략 파라미터 연속 진화 엔진'
@@ -28,7 +28,7 @@ try:
 except Exception:
     pass
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 DATA_DIR = os.path.join(BASE_DIR, "data")
 STOCK_CSV_DIR = os.path.join(DATA_DIR, "시총 1000억 이상")
 EXCEL_DIR = os.path.join(DATA_DIR, "long_term_ma_upper_wick")

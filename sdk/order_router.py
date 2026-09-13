@@ -57,7 +57,7 @@ class AdaptiveOrderRouter:
     def is_simulation_server() -> bool:
         """account_state.json에서 모의투자 서버 여부 확인"""
         try:
-            acc_path = r"C:\Antigravity\data\account_state.json"
+            acc_path = r"D:\ANTIGRAVITY(자동매매)\data\account_state.json"
             if os.path.exists(acc_path):
                 with open(acc_path, "r", encoding="utf-8") as f:
                     data = json.load(f)

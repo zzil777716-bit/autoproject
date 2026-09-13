@@ -10,11 +10,11 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
-# C:\Antigravity\coin\coin_api_key.env 자동 로드
+# D:\ANTIGRAVITY(자동매매)\coin\coin_api_key.env 자동 로드
 def load_env_file():
     env_paths = [
-        Path(r"C:\Antigravity\coin\coin_api_key.env"),
-        Path(r"C:\Antigravity\coin\coin_api_key.env.txt")
+        Path(r"D:\ANTIGRAVITY(자동매매)\coin\coin_api_key.env"),
+        Path(r"D:\ANTIGRAVITY(자동매매)\coin\coin_api_key.env.txt")
     ]
     for p in env_paths:
         if p.exists():
@@ -30,7 +30,7 @@ load_env_file()
 @dataclass
 class CoinConfig:
     SYSTEM_NAME: str = "Antigravity Crypto Trading Engine"
-    BASE_DIR: str = r"C:\Antigravity\coin"
+    BASE_DIR: str = r"D:\ANTIGRAVITY(자동매매)\coin"
     
     # 기본 거래소 선택: 'UPBIT' 또는 'BITHUMB'
     ACTIVE_EXCHANGE: str = os.getenv("ACTIVE_EXCHANGE", "UPBIT")

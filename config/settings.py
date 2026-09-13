@@ -12,7 +12,7 @@ from dataclasses import dataclass
 class SystemConfig:
     # 1. 시스템 식별자 및 기본 경로
     SYSTEM_NAME: str = "Antigravity Multi-Bot Trading System"
-    BASE_DIR: str = r"C:\Antigravity"
+    BASE_DIR: str = r"D:\ANTIGRAVITY(자동매매)"
     GDRIVE_DIR: str = r"G:\내 드라이브\Antigravity"
 
     # 2. 키움증권 계좌 및 모의투자 설정

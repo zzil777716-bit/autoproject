@@ -24,7 +24,7 @@ from openpyxl.utils import get_column_letter
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-LOCAL_DATA_DIR = r"C:\Antigravity\data\종목데이터"
+LOCAL_DATA_DIR = r"D:\ANTIGRAVITY(자동매매)\data\종목데이터"
 GDRIVE_DATA_DIR = r"G:\내 드라이브\Antigravity\종목데이터"
 
 def sanitize_sheet_name(name):

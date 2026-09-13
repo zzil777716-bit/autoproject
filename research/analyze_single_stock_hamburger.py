@@ -22,7 +22,7 @@ from datetime import datetime
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-LOCAL_DATA_DIR = r"C:\Antigravity\data\종목데이터"
+LOCAL_DATA_DIR = r"D:\ANTIGRAVITY(자동매매)\data\종목데이터"
 
 def find_stock_file(query):
     query = str(query).strip()

@@ -13,7 +13,7 @@ import pandas as pd
 
 class TimeseriesIndicatorEngine:
     """실시간 분봉 집계 및 기술적 지표 산출 엔진 (Pre-warm 지원)"""
-    def __init__(self, code: str, stock_name: str, base_dir: str = r"C:\Antigravity"):
+    def __init__(self, code: str, stock_name: str, base_dir: str = r"D:\ANTIGRAVITY(자동매매)"):
         self.code = str(code).zfill(6)
         self.stock_name = stock_name
         self.base_dir = base_dir

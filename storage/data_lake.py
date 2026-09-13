@@ -17,7 +17,7 @@ class QuantDataLake:
     2. PRAGMA busy_timeout=5000 (동시 접근 시 5초 대기 후 재시도)
     3. 종목/전략별 파일 파티셔닝 지원 (trade_journal_{code}.sqlite)
     """
-    def __init__(self, base_dir: str = r"C:\Antigravity", partition_key: Optional[str] = None):
+    def __init__(self, base_dir: str = r"D:\ANTIGRAVITY(자동매매)", partition_key: Optional[str] = None):
         self.base_dir = base_dir
         self.research_dir = os.path.join(base_dir, "data", "research")
         os.makedirs(self.research_dir, exist_ok=True)

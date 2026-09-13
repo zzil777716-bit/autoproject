@@ -30,7 +30,7 @@ try:
 except Exception:
     pass
 
-BASE_DIR = r"C:\Antigravity"
+BASE_DIR = r"D:\ANTIGRAVITY(자동매매)"
 sys.path.insert(0, BASE_DIR)
 
 from collectors.market_universe_collector import (
