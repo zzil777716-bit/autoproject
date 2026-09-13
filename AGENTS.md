@@ -32,7 +32,7 @@
 | :--- | :--- | :--- |
 | **1. 딥 퀀트 리서치팀**<br>(Deep Quant Research) | **DeepSeek**<br>**Perplexity AI**<br>**Genspark**<br>**NotebookLM** | • **DeepSeek**: 초저비용 심층 수학/추론 모델링, 팩터 역발산 최적화<br>• **Perplexity AI**: 전 세계 실시간 금융 뉴스, 거시 지표, 긴급 찌라시 팩트체크<br>• **Genspark**: 다각도 리서치 종합 및 대체 데이터(Alternative Data) 브리핑<br>• **NotebookLM**: 국내 증권사 리포트, 10년치 매매일지, 9대 유튜브 교재 RAG 지식화 |
 | **2. 실시간 센티먼트팀**<br>(Realtime Sentiment) | **Grok** | • X(트위터), 텔레그램, 고래 지갑 이동 등 실시간 시장 펄스 및 개미 광기/패닉 스캔 |
-| **3. 하드코어 엔지니어링팀**<br>(Hardcore Engineering) | **Cursor**<br>**Windsurf**<br>**Codeium**<br>**Ollama** | • **Cursor**: AST 기반 초정밀 리팩토링, 알고리즘 병목 제거<br>• **Windsurf**: 에이전틱 Cascade 파이프라인, 비동기 소켓 최적화<br>• **Codeium**: 로컬 인텔리센스 및 토큰 제로 코드 자동완성<br>• **Ollama (Llama/Qwen)**: 외부 API 호출 없는 **오프라인 0-토큰 로컬 AI 엔진** |
+| **3. 하드코어 엔지니어링팀**<br>(Hardcore Engineering) | **Cursor**<br>**Windsurf**<br>**Codeium**<br>**Ollama** | • **Tree-sitter & AST CodeRAG**: 단순 텍스트 청킹 배제, 구문 트리 시그니처 압축을 통한 **토큰 90% 절감 및 환각 0% 구조화**<br>• **Cursor / Windsurf**: AST 기반 초정밀 리팩토링, 알고리즘 병목 제거, 에이전틱 Cascade 파이프라인 최적화<br>• **Codeium**: 로컬 인텔리센스 및 토큰 제로 코드 자동완성<br>• **Ollama (Llama/Qwen)**: 외부 API 호출 없는 **오프라인 0-토큰 로컬 AI 엔진** |
 | **4. 차세대 UI/대시보드팀**<br>(Generative UI & App) | **v0 (by Vercel)**<br>**Lovable** | • **v0**: 반응형 실시간 트레이딩 대시보드, Tailwind 컴포넌트 설계<br>• **Lovable**: 원클릭 풀스택 웹 트레이딩 앱 및 모바일 친화적 인터페이스 구축 |
 | **5. 멀티미디어 브랜딩팀**<br>(Multimedia & Media) | **Recraft**<br>**Ideogram**<br>**Suno**<br>**Udio** | • **Recraft / Ideogram**: 고해상도 차트 시각화 인포그래픽, 텔레그램 리포트 카드 디자인<br>• **Suno / Udio**: 매매 긴급 알람 사운드(Audio Alert), 집중용 사운드트랙 생성 |
 

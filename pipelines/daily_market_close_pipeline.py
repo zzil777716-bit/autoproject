@@ -139,6 +139,32 @@ def step5_update_calendar_with_tomorrow_ranks():
         return True
     return False
 
+def step6_evolve_swing_strategy():
+    """6단계: 수집 데이터 기반 스윙 전략 연속 관찰 및 매매 지침 자동 진화"""
+    log_step(6, "스윙 전략 연속 관찰 및 파라미터 자동 진화 (규칙 1, 2 반영)")
+    try:
+        from strategies.daily_swing_evolution_engine import DailySwingEvolutionEngine
+        engine = DailySwingEvolutionEngine()
+        engine.run_evolution_pipeline()
+        print(">> [Step 6 완료] 스윙 전략 지침서 및 프로필 자동 갱신 완료!")
+        return True
+    except Exception as e:
+        print(f">> [Step 6 에러] 스윙 전략 진화 중 오류: {e}")
+        return False
+
+def step7_index_code_ast():
+    """7단계: Tree-sitter & AST 기반 코드베이스 구조화 인덱싱 (토큰 90% 압축 & 환각 방지)"""
+    log_step(7, "Tree-sitter & AST 기반 코드베이스 구조화 인덱싱 (CodeRAG Spec)")
+    try:
+        from core.ast_code_indexer import ASTCodeIndexer
+        indexer = ASTCodeIndexer()
+        indexer.build_entire_repo_ast_index()
+        print(">> [Step 7 완료] AST 압축 맵 및 코드 의존성 인덱스 갱신 완료!")
+        return True
+    except Exception as e:
+        print(f">> [Step 7 에러] AST 인덱싱 중 오류: {e}")
+        return False
+
 def run_pipeline(target_date: str = None):
     t0 = time.time()
     today_str = target_date or datetime.now().strftime("%Y-%m-%d")
@@ -162,14 +188,24 @@ def run_pipeline(target_date: str = None):
     # 4. 검증 3: 캘린더 자동 갱신 (당일 HTS 4종 주도 데이터 복구 + 익일 셀에 당일 윗꼬리 승률 랭킹 종목명 탑재)
     step5_update_calendar_with_tomorrow_ranks()
 
+    # 5. 스윙 전략 관찰 및 매매 지침 자동 진화 (Step 6)
+    step6_evolve_swing_strategy()
+
+    # 6. AST 코드 구조화 인덱싱 (Step 7 - 토큰 90% 압축 & 환각 방지)
+    step7_index_code_ast()
+
     elapsed = time.time() - t0
     print("\n" + "=" * 80)
     print(f"🎉 [전체 완료] 모든 수집 및 2대 검증, 캘린더 내일 순위 자동 갱신 완료 (총 소요 시간: {elapsed:.1f}초)")
     print(f"   • 구글 드라이브: {GDRIVE_USER_VERIFY}")
     print(f"   • 로컬 저장소: {LOCAL_USER_VERIFY}")
     print(f"   • 바탕화면 캘린더: C:\\Users\\HONG\\Desktop\\증시_주도테마_캘린더.html")
+    print(f"   • 최신 스윙 매매지침: G:\\내 드라이브\\Antigravity\\사용자 검증\\최신_스윙전략_매매지침.md")
+    print(f"   • AST 코드 압축 맵: C:\\Antigravity\\data\\code_ast_index\\REPO_COMPRESSED_AST_MAP.md")
     print("=" * 80)
 
 if __name__ == "__main__":
     dt_arg = sys.argv[1] if len(sys.argv) > 1 else None
     run_pipeline(dt_arg)
+
+
